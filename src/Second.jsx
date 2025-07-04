@@ -54,41 +54,41 @@ export const Second = () => {
     const data = [
 
         {
-            show: "./public/assets/img4.jpg",
+            show: "/assets/img4.jpg",
             username: "🦋ritika🦋",
             id: "@ritika725189",
             contant: "  Jai Jaganath puri ji🚩 ⭕‼️⭕ 🙌",
             time: "12h",
-            show1: "./public/assets/img4.0.jpg"
+            show1: "/assets/img4.0.jpg"
 
         },
 
         {
-            show: "./public/assets/img1.jpg",
+            show: "/assets/img1.jpg",
             username: "johns.",
             id: "@CricCrazyJohns",
             contant: "MOST HUNDREDS FOR INDIA IN WTC HISTORY: Shubman Gill - 7* (62 Innings)",
             time: "14h",
-            show1: "./public/assets/img2.0.jpg"
+            show1: "/assets/img2.0.jpg"
 
 
         },
         {
-            show: "./public/assets/img3.jpg",
+            show: "/assets/img3.jpg",
             username: "VAIDIC BHARAT",
             id: "@vaidic_1",
             contant: "Not all warriors wear armor. Some wear sarees and carry milk pots. Meet Hirkani – the mother who defied a mountain for her child.",
             time: "21h",
-            show1: "./public/assets/img3.0.jpg"
+            show1: "/assets/img3.0.jpg"
 
         },
         {
-            show: "./public/assets/img2.jpg",
+            show: "/assets/img2.jpg",
             username: "ESPNcricinfo",
             id: "@ESPNcricinfo",
             contant: "The captain delivered a masterclass in control and accountability, standing tall amid the team's various tactical tangles, writes Sid Monga ✍️ ",
             time: "22h",
-            show1: "./public/assets/img1.0.jpg"
+            show1: "/assets/img1.0.jpg"
 
         },
     ]
@@ -111,7 +111,7 @@ export const Second = () => {
                 <div className="h-[1px] w-full bg-[gray]"></div>
                 <div className="flex flex-col gap-[10px] p-[10px]">
                     <div className="flex gap-[10px]">
-                        <img className=" w-[50px] h-[50px] rounded-[50%]" src="./public/assets/cricinfo.jpg" alt="" />
+                        <img className=" w-[50px] h-[50px] rounded-[50%]" src="/assets/cricinfo.jpg" alt="" />
                         <input onClick={handelclick} className="w-full bg-black text-white font-bold outline-none text-[18px]" type="text" placeholder="What's happening?" />
                     </div>
                     <div className={`${show ? "block" : "hidden"} flex flex-col gap-[2px] pl-[25px]`}>

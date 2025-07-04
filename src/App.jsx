@@ -73,7 +73,7 @@ export const App = () => {
           <div className="hidden md:block">
             <div className="relative hover:bg-[#141313] pl-[10px] pr-[65px] py-[13px] rounded-[50px] font-bold text-white mt-[20px] flex gap-[5px] mr-[5px] items-center w-fit">
 
-              <img className=" w-[50px] h-[50px] rounded-[50%]" src="./public/assets/cricinfo.jpg" alt="" />
+              <img className=" w-[50px] h-[50px] rounded-[50%]" src="/assets/cricinfo.jpg" alt="" />
 
               <div className="flex flex-col gap-[2px]">
                 <div>Sahil Baldha</div>

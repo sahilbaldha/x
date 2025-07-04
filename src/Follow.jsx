@@ -2,18 +2,18 @@ export const Follow = () => {
 
     const followuser = [
         {
-            img_url: "./public/assets/cricinfo.jpg",
+            img_url: "/assets/cricinfo.jpg",
             usename: "cricviz",
             id: "@cricviz",
             key: 1
         },
         {
-            img_url: "./public/assets/hritik roson.jpg",
+            img_url: "/assets/hritik roson.jpg",
             usename: "Hrithik Roshan",
             id: "@HrithikRoshan",
             key: 2
         }, {
-            img_url: "./public/assets/gill.jpg",
+            img_url: "/assets/gill.jpg",
             usename: "Shubman Gill",
             id: "@ShubmanGill",
             key: 3
